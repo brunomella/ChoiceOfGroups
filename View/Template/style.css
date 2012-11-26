@@ -1,0 +1,209 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Tahoma, "Trebuchet MS", Verdana, sans-serif;
+}
+
+#header {
+	height: 100px;
+	background-color: #fff;
+}
+
+#footer {
+	border-top: 2px solid gray;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 10px;
+	clear: both;
+	color: gray;
+	font-weight: bold;
+}
+
+body {
+	background-color: white;
+}
+
+#body {
+	border-top: 2px solid gray;
+	width: 100%;
+	margin: 0 auto;
+	min-height: 400px;
+	padding: 10px 0;
+	float: left;
+	background-color: #fff;
+}
+
+#content {
+	float: left;
+	padding-left: 10px;
+}
+
+#menu {
+	float: left;
+	width: 200px;
+}
+
+#menu  ul {
+	list-style: none;
+	padding-left: 10px;
+	background-color: #383435;
+	border-radius: 0 15px 15px 0;
+}
+
+#menu  ul  li {
+	border-top: 3px solid white;
+	height: 30px;
+	padding: 5px 0 0 0;
+}
+
+#menu>ul>li:hover {
+	background-color: gray;
+}
+
+#menu>ul>li:last-child {
+	border-radius: 0px 0 15px 0;
+}
+
+#menu>ul>li:first-child {
+	border-radius: 0 15px 0 0;
+	border-top: none;
+}
+
+#menu li a {
+	color: white;
+	text-decoration: none;
+}
+
+.link {
+	text-decoration: underline;
+	border: none;
+	background: none;
+	color: blue;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+
+input,label,textarea {
+	display: block;
+}
+
+label {
+	font-weight: bold;
+}
+
+input[type='text'] {
+	height: 30px;
+	font-size: 16px;
+	margin-top: 5px;
+	border: solid #383435 2px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+
+textarea {
+	width: 600px;
+	height: 200px;
+	border: solid #383435 1px;
+	font-size: 16px;
+	margin: 5px;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+fieldset {
+	border: none;
+	padding: 10px;
+	border-top: 3px solid #383435;
+	width: 760px;
+}
+
+fieldset legend {
+	border: 1px solid #383435;
+	border-radius: 5px;
+	background-color: #c2c2c2;
+	font-weight: bold;
+	padding: 5px;
+	font-size: 16pt;
+	color: #383435;
+}
+
+table {
+	width: 100%;
+	border-radius: 5px;
+	border: 3px solid #383435;
+}
+
+table thead {
+	background-color: #383435;
+	color: white;
+	font-weight: bold;
+	height: 30px;
+}
+
+table tbody tr:nth-child(even) {
+	background-color: #ccc;
+}
+
+table tbody td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+table tbody td img {
+	padding-right: 0px;
+	vertical-align: middle;
+}
+
+table tbody td a {
+	text-decoration: none;
+}
+
+table tfoot th {
+	background-color: #383435;
+	color: white;
+	font-weight: bold;
+}
+
+table tfoot th img {
+	padding-right: 0px;
+	vertical-align: middle;
+}
+
+img.__painel {
+	padding-left: 170px;
+}
+
+#novo {
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#novo a {
+	text-decoration: none;
+	font-size: 16px;
+}
+
+#novo a img {
+	padding-right: 0px;
+	vertical-align: middle;
+}
+
+form input.btn{
+	display: block;
+	width: 120px;
+	background-color: #ccc;
+	border: 0;
+	padding: 5px 0;
+	border: solid #383435 2px;
+	border-radius: 5px;
+	font-size: 16px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+
