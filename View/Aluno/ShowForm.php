@@ -22,6 +22,7 @@ switch ($action) {
 		$aluno = "";
 		$observacao = "";
 		$email = "";
+		$turmaId = null;
 
 		//$appManager = new AppManager();
 		$action = "AlunosCreate";
@@ -36,6 +37,7 @@ switch ($action) {
 		$aluno = $i->getAluno();
 		$observacao = $i->getObservacao();
 		$email = $i->getEmail();
+		$turmaId = $i->getTurmaId();
 
 		$action = "AlunosUpdate";
 		unset($i);

@@ -19,8 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 switch ($action) {
 	case 'MateriaTurmaCreate':
 		$codigo = null;
-		$materiaId = ""; //nao sei se é null verificar
-		$turmaId = ""; // nao sei se é null verificar
+		$materiaId = null; //nao sei se é null verificar
+		$turmaId = null; // nao sei se é null verificar
 
 		//$appManager = new AppManager();
 		$action = "MateriaTurmaCreate";

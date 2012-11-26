@@ -75,12 +75,12 @@ $html = "
 </label>" : $html = $html;
 $html .= "
 
-<label for='txtMateriaId'> Materia ID
-<input type='text' size='100' name='txtMateriaId' id='txtMateriaId' value='$materiaId'/>
+<label for='txtTurma'> Nome da Turma
+<input type='text' size='100' name='txtTurma' id='txtTurma' value='$turma'/>
 </label>
 
-<label for='txtTurmaId'> Turma ID
-<input type='text' size='100' name='txtTurmaId' id='txtTurmaId' value='$turmaId'/>
+<label for='txtDescricao'> Descrição
+<input type='text' size='100' name='txtDescricao' id='txtDescricao' value='$descricao'/>
 </label>
 
 <input type='submit' class='btn' name='enviar' value='Enviar' />
